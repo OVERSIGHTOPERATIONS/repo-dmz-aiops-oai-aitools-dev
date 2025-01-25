@@ -9,8 +9,8 @@ import subprocess
 # The script captures the output and error messages from the command and prints them to the console.
 
 # Define variables
-account_name = 'account_name'
-resource_group = 'resource_group_name'
+account_name = 'MyOpenAIResource'
+resource_group = 'OAIResourceGroup'
 location = 'location'
 kind = 'OpenAI'
 sku = 's0'
