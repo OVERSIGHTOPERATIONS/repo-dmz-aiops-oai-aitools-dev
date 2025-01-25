@@ -16,7 +16,7 @@ kind = 'OpenAI'
 sku = 's0'
 subscription_id = 'subscription_id'
 
-# Define the Azure CLI command
+# Define the Azure CLI command to restore the resource
 command = [
     'az', 'cognitiveservices', 'account', 'create',
     '-n', account_name,
@@ -25,7 +25,6 @@ command = [
     '--kind', kind,
     '--sku', sku,
     '--subscription', subscription_id
-    '--restore', 'true'
 ]
 
 # Run the command
