@@ -25,6 +25,7 @@ command = [
     '--kind', kind,
     '--sku', sku,
     '--subscription', subscription_id
+    '--restore', 'true'
 ]
 
 # Run the command
