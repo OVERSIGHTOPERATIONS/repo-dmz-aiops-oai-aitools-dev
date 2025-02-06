@@ -10,10 +10,10 @@ import subprocess
 
 # Define variables
 resource_group = 'OAIResourceGroup'
-account_name = 'MyOpenAIResource'
-deployment_name = 'MyModel'
-model_name = 'gpt-35-turbo'
-model_version = '0125'
+account_name = 'aiops-aitools-dev'
+deployment_name = 'aiops-aitools-dev-gpt-35-turbo-16k-0613'
+model_name = 'gpt-35-turbo-16k'
+model_version = '0613'
 model_format = 'OpenAI'
 sku_name = 'Standard'
 sku_capacity = 1
